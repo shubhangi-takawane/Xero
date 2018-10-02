@@ -17,7 +17,7 @@ public class SeleniumTestScript_2 {
 		public static WebDriver driver;
 		
 		public static void SignUpForFreeTrail_TC02() throws InterruptedException, AWTException{
-			
+		//launch chrome browser
 			driver=ReusableMethode.launchBrowser("chrome");
 			
 			driver.get("https://www.xero.com/us/");
