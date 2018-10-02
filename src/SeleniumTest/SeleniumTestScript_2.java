@@ -84,7 +84,7 @@ public class SeleniumTestScript_2 {
 			
 			Thread.sleep(2000);
 			
-//check terms and policy
+//check terms and policy in Xero application
 			driver.findElement(By.xpath("html/body/div[6]/main/div[1]/div/div/form/div[8]/div/label/input")).click();
 			
 			System.out.println("cannot automate captcha in selenium");
