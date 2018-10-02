@@ -225,6 +225,7 @@ public class SeleniumTestScript_2 {
 
 
 	driver.close();
+// close the browser windows
 
 }	
 		public static void main(String[] args) throws InterruptedException, AWTException {
