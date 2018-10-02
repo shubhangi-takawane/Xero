@@ -140,7 +140,7 @@ public class SeleniumTestScript_2 {
 				actData.add(ele.getText().trim());
 			}
 			
-			System.out.println(actData);
+			System.out.println("ActData"+actData);
 			
 			if(actData.equals(expList))
 				System.out.println("Error message is displayed");
